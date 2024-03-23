@@ -44,7 +44,7 @@ export default function Header() {
                             <li className={styles.item} onClick={()=>fecharMenu()}>Skills</li>
                         </a>
                         <a href="#contatos">
-                            <li className={styles.item} onClick={()=>fecharMenu()}>Contatos</li>
+                            <li className={styles.item} onClick={()=>fecharMenu()}>Contatocts</li>
                         </a>
                     </ul>
                 </nav>
