@@ -1,0 +1,48 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap');
+
+*{
+    margin: 0px;
+    padding: 0px;
+
+    font-family: "Nunito", sans-serif;
+    color: white;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+:root{
+    --cor1: #012030;
+    --cor2: #00334d;
+    --cor3: #45C4B0;
+    --cor4: #9AEBA3;
+    --cor5: #DAFDBA;
+}
+
+
+::-webkit-scrollbar{
+    width: 8px;
+    background-color: var(--cor2);
+}
+
+::-webkit-scrollbar-thumb{
+    background-color: var(--cor4);
+    border-radius: 4px;
+}
+
+body{
+    position: relative;
+    background-color: var(--cor1);
+}
+
+.voltar{
+    display: none;
+    fill: var(--cor4);
+    font-size: 40px;
+    position: fixed;
+    bottom: 20px;
+    right: 10px;
+}

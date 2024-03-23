@@ -1,0 +1,169 @@
+
+:root{
+    --cor1: #012030;
+    --cor2: #00334d;
+    --cor3: #45C4B0;
+    --cor4: #9AEBA3;
+    --cor5: #DAFDBA;
+}
+
+.habilidades{
+    margin: 150px 0px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    max-width: 1100px;
+}
+
+.titulo{
+    font-size: 3rem;
+    color: var(--cor5);
+}
+
+.tecnologias{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 100px;
+    margin: 20px 0px;
+    padding: 20px;
+}
+
+.tecnologia{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    position: relative;
+    width: 212px;
+    height: 212px;
+    border-radius: 15px;
+    z-index: -1;
+    overflow: hidden;
+}
+
+.img_html,
+.img_css,
+.img_js,
+.img_react,
+.img_tailwind,
+.img_vite,
+.img_git,
+.img_github,
+.img_vscode{
+    margin: 20px;
+    width: 100px;
+    filter: drop-shadow(5px 5px 5px black);
+}
+
+.animaçao_html::before,
+.animaçao_css::before,
+.animaçao_js::before,
+.animaçao_react::before,
+.animaçao_tailwind::before,
+.animaçao_vite::before,
+.animaçao_git::before,
+.animaçao_github::before,
+.animaçao_vscode::before{
+    content: "";
+    width: 100px;
+    height: 350px;
+    position: absolute;
+    top: -65px;
+    right: 60px;
+    transform-origin: center;
+    z-index: -1;
+    animation: rodar 10s infinite linear;
+}
+
+.animaçao_html::after,
+.animaçao_css::after,
+.animaçao_js::after,
+.animaçao_react::after,
+.animaçao_tailwind::after,
+.animaçao_vite::after,
+.animaçao_git::after,
+.animaçao_github::after,
+.animaçao_vscode::after{
+    content: "";
+    background-color: var(--cor2);
+    position: absolute;
+    top: 6px;
+    right: 6px;
+    width: 200px;
+    height: 200px;
+    border-radius: 10px;
+    z-index: -1;
+}
+
+.animaçao_html::before{
+    background-color: #e34f26;
+}
+
+.animaçao_css::before{
+    background-color: #264de4;
+}
+
+.animaçao_js::before{
+    background-color: #f0dc4e;
+}
+
+.animaçao_react::before{
+    background-color: #61dafb;
+}
+
+.animaçao_tailwind::before{
+    background-color: #35bef8;
+}
+
+.animaçao_vite::before{
+    background-image: linear-gradient(#46caff, #bd34ff);
+}
+
+.animaçao_git::before{
+    background-color: #f05033;
+}
+
+.animaçao_github::before{
+    background-color: #000000;
+}
+
+.animaçao_vscode::before{
+    background-color: #3c99d4;
+}
+
+
+
+
+@keyframes rodar {
+    from{
+        transform: rotate(0deg);
+    }
+    to{
+        transform: rotate(360deg);
+    }
+}
+
+
+@media (max-width: 290px) {
+    .titulo{
+        font-size: 2rem;
+    }
+}
+
+
+/* .estudando{
+    animation: estudando 0.8s infinite;
+    animation-direction: alternate;
+}
+
+@keyframes estudando {
+    from{
+        opacity: 0;
+    }
+    to{
+        opacity: 1;
+    }
+} */

@@ -1,0 +1,133 @@
+
+:root{
+    --cor1: #012030;
+    --cor2: #00334d;
+    --cor3: #45C4B0;
+    --cor4: #9AEBA3;
+    --cor5: #DAFDBA;
+}
+
+
+.apresentaçao{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 30px;
+    margin-top: 50px;
+    padding: 20px;
+    width: 86vw;
+}
+
+.nome{
+    font-size: 5rem;
+    font-weight: 800;
+    color: var(--cor4);
+}
+
+.profissao{
+    display: inline-block;
+    position: relative;
+}
+
+.profissao::before{
+    content: "";
+    position: absolute;
+    background-color: var(--cor1);
+    border-left: 3px solid white;
+    right: -6px;
+    width: 0%;
+    height: 100%;
+
+    animation: prof 5s steps(25) infinite;
+    animation-delay: 1s;
+    animation-direction: alternate;
+}
+
+.contatos{
+    display: flex;
+    gap: 15px;
+    margin-top: 20px;
+}
+
+.contato{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 35px;
+    cursor: pointer;
+    transition: 0.4s;
+}
+
+.contato:hover{
+    fill: var(--cor3);
+    transition: 0.4s;
+}
+
+.dev{
+    min-width: 200px;
+    max-width: 350px;
+    padding: 10px;
+
+    animation: devMove 10s infinite ease;
+    animation-delay: 2s;
+}
+
+
+@keyframes prof {
+    0%{
+        width: 0%;
+    }
+
+    50%{
+        width: 0%;
+    }
+
+    100%{
+        width: 107%;
+    }
+}
+
+@keyframes devMove {
+    0%{
+        transform: translateY(0px);
+    }
+
+    50%{
+        transform: translateY(-40px);
+    }
+
+    100%{
+        transform: translateY(0px);
+    }
+}
+
+
+
+@media (max-width: 705px) {
+    .nome{
+        font-size: clamp(2rem, 11vw, 4rem);
+    }
+
+    .profissao{
+        font-size: clamp(1rem, 5vw ,1.2rem);
+    }
+
+    .contato{
+        font-size: 30px;
+    }
+}
+
+@media (max-width: 290px) {
+    .nome{
+        font-size: 2rem;
+    }
+
+    .profissao{
+        font-size: 1rem;
+    }
+
+    .contato{
+        font-size: 25px;
+    }
+}

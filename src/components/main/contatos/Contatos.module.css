@@ -1,0 +1,132 @@
+
+:root{
+    --cor1: #012030;
+    --cor2: #00334d;
+    --cor3: #45C4B0;
+    --cor4: #9AEBA3;
+    --cor5: #DAFDBA;
+}
+
+.contatos{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin-top: 150px;
+    max-width: 1100px;
+    padding: 0px 5px;
+}
+
+.titulo{
+    font-size: 3rem;
+    color: var(--cor5);
+}
+
+.contato{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 30px;
+    margin: 20px 0px;
+    padding: 30px 0px;
+    width: 100%;
+}
+
+.redes{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 40px;
+    flex-wrap: wrap;
+}
+
+.github,
+.linkedin,
+.email{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    transition: 0.5s;
+}
+
+.github:hover .linha,
+.linkedin:hover .linha,
+.email:hover .linha {
+    width: 100%;
+    transition: 0.5s;
+}
+
+.link{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.icon{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 30px;
+    cursor: pointer;
+}
+
+.btn_link{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 5px;
+    background-color: var(--cor2);
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.4s;
+}
+
+.btn_link:hover{
+    background-color: var(--cor1);
+    box-shadow: 0px 0px 1px 2px var(--cor5);
+    transition: 0.4s;
+}
+
+.icon_email{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 30px;
+}
+
+.btn_enviar{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 5px;
+    background-color: var(--cor2);
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.4s;
+}
+
+.btn_enviar:hover{
+    background-color: var(--cor1);
+    box-shadow: 0px 0px 1px 2px var(--cor5);
+    transition: 0.4s;
+}
+
+.icon_enviar{
+    font-size: 20px;
+}
+
+.linha{
+    width: 0px;
+    transition: 0.5s;
+    height: 3px;
+    background-color: var(--cor3);
+    border: none;
+    border-radius: 2px;
+}

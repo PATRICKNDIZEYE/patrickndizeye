@@ -1,0 +1,142 @@
+
+:root{
+    --cor1: #012030;
+    --cor2: #00334d;
+    --cor3: #45C4B0;
+    --cor4: #9AEBA3;
+    --cor5: #DAFDBA;
+}
+
+
+.topo{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0px 1px 20px black;
+}
+
+.content{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    max-width: 980px;
+    padding: 10px 10%;
+}
+
+.logoNome{
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    gap: 10px;
+}
+
+.logo{
+    width: 45px;
+    transition: 0.4s;
+}
+
+.logo:hover{
+    transform: rotate(360deg);
+    transition: 0.4s;
+}
+
+.letra{
+    font-weight: 900;
+    font-size: 1.3rem;
+    cursor: default;
+    display: inline-block;
+    transition: 0.3s;
+}
+
+.letra:hover{
+    transform: translateY(-5px);
+    color: var(--cor2);
+    transition: 0.3s;
+}
+
+.menu{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    list-style-type: none;
+    z-index: 1;
+}
+
+.item{
+    font-weight: bold;
+    border: 2px solid var(--cor5);
+    border-radius: 10px;
+    padding: 10px;
+    cursor: pointer;
+    transition: 0.4s;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.item:hover{
+    background-color: var(--cor1);
+    color: var(--cor5);
+    box-shadow: 0px 0px 20px 2px var(--cor5);
+    transition: 0.4s;
+}
+
+a{
+    text-decoration: none;
+}
+
+
+
+@media (min-width: 706px) {
+    .menu{
+        display: flex !important;
+    }
+
+    .openMenu,
+    .closeMenu{
+        display: none !important;
+    }
+}
+
+@media (max-width: 705px) {
+
+    .navegaçao{
+        position: relative;
+    }
+
+    .menu{
+        display: none;
+        position: absolute;
+        width: 40vw;
+        top: 55px;
+        right: -30px;
+        background-color: var(--cor2);
+        padding: 20px;
+        border-radius: 10px;
+        box-shadow: 0px 1px 20px black;
+    }
+
+    .item{
+        margin: 15px 0px;
+    }
+
+    .openMenu{
+        display: block;
+        font-size: 1.7rem;
+
+        background-color: var(--cor2);
+        padding: 3px;
+        border-radius: 5px;
+    }
+
+    .closeMenu{
+        display: none;
+        font-size: 1.7rem;
+
+        background-color: var(--cor2);
+        padding: 3px;
+        border-radius: 5px;
+    }
+}

@@ -1,0 +1,53 @@
+
+:root{
+    --cor1: #012030;
+    --cor2: #00334d;
+    --cor3: #45C4B0;
+    --cor4: #9AEBA3;
+    --cor5: #DAFDBA;
+}
+
+.linha{
+    border: 1px solid var(--cor4);
+}
+
+.footer{
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-between;
+    padding: 10px 5%;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.tecnologias{
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    margin: 10px 0px;
+    gap: 10px;
+}
+
+.tecnologia{
+    width: 30px;
+}
+
+.copy{
+    padding: 10px;
+}
+
+@media (max-width: 510px) {
+    .footer{
+        display: flex;
+        align-items: flex-end;
+        justify-content: center;
+    }
+
+    .info_portifolio{
+        display: flex;
+        align-items: start;
+        justify-content: center;
+        flex-direction: column;
+        width: 100%;
+    }
+}
