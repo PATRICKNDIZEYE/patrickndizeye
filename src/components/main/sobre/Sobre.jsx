@@ -11,7 +11,7 @@ export default function Sobre() {
                 <div className={styles.paragrafos}>
                     
                     <p className={styles.paragrafo}>
-                        Hey i am ! <strong>NDIZEYE Patrick</strong>, i a <strong>fullstack developer</strong> i  have 1+ years of experience in this area.i have learned from excellent tutors accross the globe via online courses and youtube videos i know <strong>Javascript</strong>, <strong>Python , PHP , Dart , </strong> and enough frameworks for better products like <strong>React.js , VUE , Laravel , Django , Next , ...</strong>
+                        Hey i am ! <strong>NDIZEYE Patrick</strong>, i am <strong>fullstack developer</strong> i  have 1+ years of experience in this area .i have learned from excellent tutors accross the globe via online courses and youtube videos i know <strong>Javascript</strong>, <strong>Python , PHP , Dart , </strong> and enough frameworks for better products like <strong> React.js , VUE , Laravel , Django , Next , ...</strong>
                     </p>
 
                     <p className={styles.paragrafo}>
