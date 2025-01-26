@@ -6,4 +6,10 @@ keep it simple
 
 ```
 
+```php
+
+Consistency is a key
+
+```
+
  
