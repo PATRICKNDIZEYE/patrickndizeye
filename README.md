@@ -2,14 +2,10 @@
 
 ```bash
 
-keep it simple
+Keep it simple
 
 ```
 
-```php
 
-Consistency is a key
-
-```
 
  
