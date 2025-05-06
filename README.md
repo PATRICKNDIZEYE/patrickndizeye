@@ -3,7 +3,7 @@
 ```python
 
 maybe (in near future):
-     my code 👩‍💻 will speak:/:
+     codin' will be great again
 
 ```
 
