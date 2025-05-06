@@ -5,7 +5,7 @@
 Keep it simple
 
 ```
-[![committers.top badge](https://user-badge.committers.top/rwanda_private/USERNAME.svg)](https://user-badge.committers.top/rwanda_private/PATRICKNDIZEYE)
+[![committers.top badge](https://user-badge.committers.top/rwanda_private/PATRICKNDIZEYE.svg)](https://user-badge.committers.top/rwanda_private/PATRICKNDIZEYE)
 
 
 
