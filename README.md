@@ -3,8 +3,7 @@
 ```python
 
 maybe (in near future):
-
-     code 👩‍💻 will speak 
+     my code 👩‍💻 will speak:/:
 
 ```
 
