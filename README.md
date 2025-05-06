@@ -1,8 +1,8 @@
 <h1 align="center"> 👋, I'm NDIZEYE Patrick </h1>
 
-```bash
+```python
 
-Keep it simple
+maybe (in upcoming time)
 
 ```
 
