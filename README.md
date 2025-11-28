@@ -1,5 +1,5 @@
-<h1 align="center"> 👋, I'm NDIZEYE </h1>
-[![committers.top badge](https://user-badge.committers.top/rwanda/PATRICKNDIZEYE.svg)](https://user-badge.committers.top/rwanda/PATRICKNDIZEYE)
+<h1 align="center" style="background: white; color:black;" > 👋, I'm NDIZEYE </h1>
+
 
 
 
@@ -11,5 +11,6 @@
 
 
  
+
 
 
